@@ -6,30 +6,26 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-3">
-        <a class="navbar-brand" href="#">Scamify</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">New Album</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Favs</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-
-
-<div class="container mt-5">
-    <div class="card mb-3" style="max-width: 1000px;">
+  <body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-2">
+      <a class="navbar-brand mx-3" href="#">Scamify</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav mx-3">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="#link1">Release Of the Month</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#link2">More Albums</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+<div class="container mt-5 mx-auto bg-body-tertiary" id="link1">
+  <h1>New Release Of The Month:</h1>
+    <div class="card mb-3" >
         <div class="row g-0">
           <div class="col-md-4">
             <img src="./assets/Grafica Sounds Illegal.png" class="img-fluid rounded-start" alt="Sounds Illegal">
@@ -41,7 +37,7 @@
                 <p class="card-text">Hard Rock - 2020</p>
                 <p class="card-text">Length: 44:00</p>
                 <h6 class="card-subtitle mb-2 text-muted">Tracklist:</h6>
-                <ul class="list-group">
+                <ul class="list-group list-group-flush">
                   <li class="list-group-item">River Of Anger</li>
                   <li class="list-group-item">The Path</li>
                   <li class="list-group-item">Love Me When I'm Dead</li>
@@ -52,97 +48,90 @@
                   <li class="list-group-item">From The Abyss</li>
                   <li class="list-group-item">End With Nothing</li>
                   <li class="list-group-item">0FG</li>
-            </div>
-          </div>
+            
+          </div>          
         </div>
+        <div class="embed-responsive">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/itv2a6Fo1NE?si=Qahkzaas8sCt2o9c" allowfullscreen style="width: 100%; height: 500px;"></iframe>
       </div>
 </div>
-
-
-      <div class="container mt-5">
+      <div class="container mt-5 bg-body-tertiary" id="link2">
+        <h2>You May Also Like:</h2>
         <div class="row">
-          <!-- First Card -->
+          <!-- 1st Card -->
           <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <!-- Card content here -->
+              <img src="./assets/images.jpeg" class="img-fluid rounded-start" alt="Appetite For Destruction">
+              <h5 class="card-title">Appetite For Destruction</h5>
+                <p class="card-text">Guns n' Roses</p>
+                <p class="card-text">Hard Rock - 1987</p>
             </div>
           </div>
-          <!-- Second Card -->
+          <!-- 2nd Card -->
           <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <!-- Card content here -->
+              <img src="./assets/images (1).jpeg" class="img-fluid rounded-start" alt="Too Fast For Love">
+              <h5 class="card-title">Too Fast For Love</h5>
+                <p class="card-text">Motley Crue</p>
+                <p class="card-text">Glam Rock - 1981</p>
             </div>
           </div>
-          <!-- Third Card -->
+          <!-- 3rd Card -->
           <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <!-- Card content here -->
+              <img src="./assets/download.jpeg" class="img-fluid rounded-start" alt="Shotgun Messiah">
+              <h5 class="card-title">Shotgun Messiah</h5>
+                <p class="card-text">Shotgun Messiah</p>
+                <p class="card-text">Glam Metal - 1989</p>
             </div>
           </div>
-          <!-- Fourth Card -->
+          <!-- 4th -->
           <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
             <div class="card">
-              <!-- Card content here -->
+              <img src="./assets/download (1).jpeg" class="img-fluid rounded-start" alt="One Sick Posse">
+              <h5 class="card-title">One Sick Posse</h5>
+                <p class="card-text">The Glamour Punks</p>
+                <p class="card-text">Glam Punk - 2013</p>
+            </div>
+          </div>
+          <!-- 5th Card -->
+          <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./assets/517InqmZXZL._UF1000,1000_QL80_.jpg" class="img-fluid rounded-start" alt="DBiTC">
+              <h5 class="card-title">Dead Boys In Trash City</h5>
+                <p class="card-text">Alleycat Scratch</p>
+                <p class="card-text">Glam Rock - 1993</p>
+            </div>
+          </div>
+          <!-- 6th Card -->
+          <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./assets/images (2).jpeg" class="img-fluid rounded-start" alt="Idolize Yourself">
+              <h5 class="card-title">Idolize Yourself</h5>
+                <p class="card-text">Billy Idol</p>
+                <p class="card-text">Rock - 2008</p>
+            </div>
+          </div>
+          <!-- 7th Card -->
+          <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./assets/crash.jpeg" class="img-fluid rounded-start" alt="Rest In Sleaze">
+              <h5 class="card-title">Rest In Sleaze</h5>
+                <p class="card-text">Crashdiet</p>
+                <p class="card-text">Sleaze Rock - 2005</p>
+            </div>
+          </div>
+          <!-- 8th Card -->
+          <div class="col-xl-3 col-md-4 col-sm-6 mb-4">
+            <div class="card">
+              <img src="./assets/reckless love.jpeg" class="img-fluid rounded-start" alt="Loaded">
+              <h5 class="card-title">Loaded</h5>
+                <p class="card-text">Reckless love</p>
+                <p class="card-text">Glam Rock - 2020</p>
             </div>
           </div>
         </div>
       </div>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
